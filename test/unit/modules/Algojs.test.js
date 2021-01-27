@@ -1,161 +1,161 @@
 import test from "tape";
 
 import {
-    isoNum,
-    myFct,
-    goalTotal,
-    GrasshopperOrder,
-    getFirstValue,
-    sortByLength,
-    minMax,
-    filterArray,
-    animals,
-    lastItem,
-    reverseArray,
-    addition,
-    boolToString,
-    filterArrayInt,
-    arrayOfMultiples,
-    convert,
-    returnNegative,
-    simpleLoop,
-    getArea,
-    makesTen,
-    addUp,
-    matchHouses,
+    // isoNum,
+    // myFct,
+    // goalTotal,
+    // GrasshopperOrder,
+    // getFirstValue,
+    // sortByLength,
+    //minMax,
+    //filterArray,
+    // animals,
+   // lastItem,
+   // reverseArray,
+//    addition,
+  // boolToString,
+//    filterArrayInt,
+//   arrayOfMultiples,
+//    convert,
+//    returnNegative,
+//    simpleLoop,
+//    getArea,
+//    makesTen,
+//    addUp,
+   // matchHouses,
 
 } from "../../../src/modules/Algojs";
 
 // --------------------------------------------Function without argument--------------------------------------------
-test("---------isoNum---------", t => {
+// test("---------isoNum---------", t => {
 
-    t.test("isoNum", assert => {
-        const message = "should create a function named isoNum Without Argument return true";
-        const expected = true;
-        const actual = isoNum();
-
-        assert.equal(actual, expected, message);
-        assert.end();
-    });
-});
-// --------------------------------------------------- Function with arguments -------------------------------------
-// test("---------myFct---------", t => {
-
-//     t.test("myFct", assert => {
-//         const message = "should create a function With 2 Arguments and return sum : 91 ";
-//         const expected = 91;
-//         const actual = myFct(90, 1);
+//     t.test("isoNum", assert => {
+//         const message = "should create a function named isoNum Without Argument return 42";
+//         const expected = 42;
+//         const actual = isoNum();
 
 //         assert.equal(actual, expected, message);
 //         assert.end();
 //     });
 // });
-// // -------------------------------------------------- Messi's Goal Total --------------------------------------
-// test("--------goalTotal---------", t => {
+// // --------------------------------------------------- Function with arguments -------------------------------------
+//  test("---------myFct---------", t => {
 
-//     t.test("goalTotal", assert => {
-//         const message = "should return total of messi goals";
-//         const expected = 58;
-//         const actual = goalTotal(43, 10, 5);
+//      t.test("myFct", assert => {
+//          const message = "should create a function With 2 Arguments and return sum : 91 ";
+//          const expected = 91;
+//          const actual = myFct(90, 1);
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
-// // ------------------------------------------------ Grasshopper Order of Operations ----------------------------------------
-// test("---------GrasshopperOrder-----------", t => {
+//          assert.equal(actual, expected, message);
+//          assert.end();
+//      });
+//  });
+// // // -------------------------------------------------- Messi's Goal Total --------------------------------------
+//  test("--------goalTotal---------", t => {
 
-//     t.test("GrasshopperOrder", assert => {
-//         const message = "Fix the function to make it return 32 without changing the number";
-//         const expected = 32;
-//         const actual = GrasshopperOrder();
+//      t.test("goalTotal", assert => {
+//          const message = "should return total of messi goals";
+//          const expected = 58;
+//          const actual = goalTotal(43, 10, 5);
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
-// // -------------------------------------------------- Return the First Element in an Array --------------------------------------
-// test("---------getFirstValue---------", t => {
-//     t.test("getFirstValue", assert => {
-//         const message = "Return the first element value";
-//         const expected = 58;
-//         const actual = getFirstValue();
+//          assert.equal(actual, expected, message);
+//          assert.end();
+//      });
+//  });
+// // // ------------------------------------------------ Grasshopper Order of Operations ----------------------------------------
+//  test("---------GrasshopperOrder-----------", t => {
 
-//         assert.equal(actual, expected, message);
-//         assert.end();
-//     });
-// });
+//      t.test("GrasshopperOrder", assert => {
+//          const message = "Fix the function to make it return 32 without changing the number";
+//          const expected = 32;
+//          const actual = GrasshopperOrder();
+
+//          assert.equal(actual, expected, message);
+//          assert.end();
+//      });
+//  });
+// // // -------------------------------------------------- Return the First Element in an Array --------------------------------------
+//  test("---------getFirstValue---------", t => {
+//      t.test("getFirstValue", assert => {
+//          const message = "Return the first element value";
+//          const expected = 58;
+//          const actual = getFirstValue();
+
+//          assert.equal(actual, expected, message);
+//          assert.end();
+//      });
+//  });
 
 // // ---------------------------------------- Find the Smallest and Biggest Numbers ------------------------------------------------
-// test("---------minMax---------", t => {
+//  test("---------minMax---------", t => {
 
-//     t.test("TEST 1 : minMax", assert => {
-//         const message = "Should return [1, 5]";
-//         const expected = [1, 5];
-//         const actual = minMax([1, 2, 3, 4, 5]);
+//      t.test("TEST 1 : minMax", assert => {
+//          const message = "Should return [1, 5]";
+//          const expected = [1, 5];
+//          const actual = minMax([1, 2, 3, 4, 5]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 2 : minMax", assert => {
-//         const message = 'Should return [5, 2334454]';
-//         const expected = [5, 2334454];
-//         const actual = minMax([2334454, 5]);
+//          assert.deepEqual(actual, expected, message);
+//          assert.end();
+//      });
+//      t.test("TEST 2 : minMax", assert => {
+//          const message = 'Should return [5, 2334454]';
+//          const expected = [5, 2334454];
+//          const actual = minMax([2334454, 5]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 3 : minMax", assert => {
-//         const message = 'Should return [1, 1]';
-//         const expected = [1, 1];
-//         const actual = minMax([1]);
+//          assert.deepEqual(actual, expected, message);
+//          assert.end();
+//      });
+//      t.test("TEST 3 : minMax", assert => {
+//          const message = 'Should return [1, 1]';
+//          const expected = [1, 1];
+//          const actual = minMax([1]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-// });
+//          assert.deepEqual(actual, expected, message);
+//          assert.end();
+//      });
+//  });
 
 // // -------------------------------------------- Sort by String Length --------------------------------------------
-// test("---------sortByLength---------", t => {
+//   test("---------sortByLength---------", t => {
 
-//     t.test("TEST 1 : sortByLength", assert => {
-//         const message = "returns an array of strings sorted by length in **ascending** order like a, bb, ccc, dddd, eeeee";
-//         const expected = ["a", "bb", "ccc", "dddd", "eeeee"];
-//         const actual = sortByLength(["a", "ccc", "eeeee", "dddd", "bb"]);
+//       t.test("TEST 1 : sortByLength", assert => {
+//           const message = "returns an array of strings sorted by length in **ascending** order like a, bb, ccc, dddd, eeeee";
+//           const expected = ["a", "bb", "ccc", "dddd", "eeeee"];
+//           const actual = sortByLength(["a", "ccc", "eeeee", "dddd", "bb"]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 2 : sortByLength", assert => {
-//         const message = 'returns an array of strings sorted by length in **ascending** order like ["Apple", "Google", "Microsoft"]';
-//         const expected = ["Apple", "Google", "Microsoft"];
-//         const actual = sortByLength(["Google", "Apple", "Microsoft"]);
+//           assert.deepEqual(actual, expected, message);
+//           assert.end();
+//       });
+//       t.test("TEST 2 : sortByLength", assert => {
+//           const message = 'returns an array of strings sorted by length in **ascending** order like ["Apple", "Google", "Microsoft"]';
+//           const expected = ["Apple", "Google", "Microsoft"];
+//           const actual = sortByLength(["Google", "Apple", "Microsoft"]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-//     t.test("TEST 3 : sortByLength", assert => {
-//         const message = 'returns an array of strings sorted by length in **ascending** order like ["Raphael", "Leonardo", "Donatello", "Michelangelo"]';
-//         const expected = ["Raphael", "Leonardo", "Donatello", "Michelangelo"];
-//         const actual = sortByLength(["Leonardo", "Michelangelo", "Raphael", "Donatello"]);
+//           assert.deepEqual(actual, expected, message);
+//           assert.end();
+//       });
+//       t.test("TEST 3 : sortByLength", assert => {
+//           const message = 'returns an array of strings sorted by length in **ascending** order like ["Raphael", "Leonardo", "Donatello", "Michelangelo"]';
+//           const expected = ["Raphael", "Leonardo", "Donatello", "Michelangelo"];
+//           const actual = sortByLength(["Leonardo", "Michelangelo", "Raphael", "Donatello"]);
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-// });
+//           assert.deepEqual(actual, expected, message);
+//           assert.end();
+//       });
+//   });
 
 // // -------------------------------------------------- Filter Strings from Array --------------------------------------
-// test("---------filterArray---------", t => {
+//  test("---------filterArray---------", t => {
 
-//     t.test("filterArray", assert => {
-//         const message = "returns an array of integers only.";
-//         const expected = [1, 2, 3, 4];
-//         const actual = filterArray();
+//      t.test("filterArray", assert => {
+//          const message = "returns an array of integers only.";
+//          const expected = [1, 2, 3, 4];
+//          const actual = filterArray();
 
-//         assert.deepEqual(actual, expected, message);
-//         assert.end();
-//     });
-// });
+//          assert.deepEqual(actual, expected, message);
+//          assert.end();
+//      });
+//  });
 
 // // -----------------------------------------------The Farm Problem -----------------------------------------
 // test("---------The Farm Problem---------", t => {
@@ -346,7 +346,7 @@ test("---------isoNum---------", t => {
 //         const expected = [1, 2, 3, 4, 5, 6];
 //         const actual = simpleLoop(6);
 
-//         assert.equal(actual, expected, message);
+//         assert.deepEqual(actual, expected, message);
 //         assert.end();
 //     });
 // });
