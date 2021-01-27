@@ -172,3 +172,12 @@
 //     return b;
 // }
 // --------------------------------------------------- Matchstick Houses -------------------------------------
+// export function matchHouses(step){
+//     var a = 6;
+//     var b = a - 1;
+//     if(step === 1){
+//         return a;
+//     }else if(step>1){
+//         return a+b*(step-1);
+//     } 
+// }
